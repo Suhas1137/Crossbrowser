@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-03T17:36:17 IST" name="orangeSuite" finished-at="2022-05-03T17:37:24 IST" duration-ms="66690">
+    <groups>
+    </groups>
+    <test started-at="2022-05-03T17:36:17 IST" name="orangeTest_chrome" finished-at="2022-05-03T17:36:52 IST" duration-ms="35133">
+      <class name="com.Test.verifyorange">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.Test.verifyorange@63355449]" started-at="2022-05-03T17:36:17 IST" name="Setup" finished-at="2022-05-03T17:36:42 IST" duration-ms="24807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyorange_tc001()[pri:0, instance:com.Test.verifyorange@63355449]" started-at="2022-05-03T17:36:42 IST" name="verifyorange_tc001" finished-at="2022-05-03T17:36:51 IST" duration-ms="9025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyorange_tc001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.verifyorange@63355449]" started-at="2022-05-03T17:36:51 IST" name="tearDown" finished-at="2022-05-03T17:36:52 IST" duration-ms="1227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.verifyorange -->
+    </test> <!-- orangeTest_chrome -->
+    <test started-at="2022-05-03T17:36:53 IST" name="orangeTest_firefox" finished-at="2022-05-03T17:37:24 IST" duration-ms="31478">
+      <class name="com.Test.verifyorange">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.Test.verifyorange@6e20b53a]" started-at="2022-05-03T17:36:53 IST" name="Setup" finished-at="2022-05-03T17:37:15 IST" duration-ms="22712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyorange_tc001()[pri:0, instance:com.Test.verifyorange@6e20b53a]" started-at="2022-05-03T17:37:15 IST" name="verifyorange_tc001" finished-at="2022-05-03T17:37:22 IST" duration-ms="6478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyorange_tc001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.verifyorange@6e20b53a]" started-at="2022-05-03T17:37:22 IST" name="tearDown" finished-at="2022-05-03T17:37:24 IST" duration-ms="2280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.verifyorange -->
+    </test> <!-- orangeTest_firefox -->
+  </suite> <!-- orangeSuite -->
+</testng-results>

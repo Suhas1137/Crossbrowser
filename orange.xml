@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="orangeSuite">
+  <test thread-count="5" name="orangeTest_chrome">
+  <parameter name="BrowserName" value="Chrome"></parameter>
+    <classes>
+      <class name="com.Test.verifyorange"/>
+    </classes>
+  </test> <!-- orangeTest -->
+  <test thread-count="5" name="orangeTest_firefox">
+  <parameter name="BrowserName" value="Firefox"></parameter>
+    <classes>
+      <class name="com.Test.verifyorange"/>
+    </classes>
+  </test> <!-- orangeTest -->
+</suite> <!-- orangeSuite -->
